@@ -1,0 +1,98 @@
+.table-container {
+  width: 900px;
+  height: 300px;
+  padding: 0px 18px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width:thin;
+  scrollbar-color: #888 white;
+}
+.table-container table {
+  border-collapse: collapse;
+  
+  height: 60px;
+  background-color: #fff;
+}
+.table-container table tbody tr td {
+  color: #444;
+  font-size: 22px;
+  width: 170px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.table-container .name {
+  text-align: left;
+}
+
+button {
+  background-color: #fff;
+  color: blue;
+  border: none;
+  outline: none;
+  border: 2px solid #777;
+  border-radius: 3px;
+  margin: 0 5px;
+  width: 50px;
+}
+
+.save {
+  color: crimson;
+}
+
+.save:hover {
+  color: green;
+}
+
+.fa-trash-alt {
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+.fa-trash-alt:hover {
+  color: crimson;
+}
+
+.changee {
+  border: 2px solid #888;
+  outline: none;
+  height: 20px;
+  width: 140px;
+  color: #444;
+  padding-left: 10px;
+}
+
+.fa-edit {
+  font-size: 18px;
+}
+
+.fa-save {
+  font-size: 20px;
+  /* color: yellow; */
+}
+
+
+thead tr{
+  position: sticky;
+  top: 0;
+  background-color: rgb(230, 228, 228);
+  height: 70px;
+}
+table {
+  border-collapse: collapse;
+  height: 60px;
+  background-color: rgb(226, 222, 222);
+}
+table thead tr th {
+  color: #444;
+  font-size: 22px;
+  width: 170px;
+}
+table thead tr .name {
+  text-align: left;
+}
+
+table thead tr th:first-child{
+  position: sticky;
+}
